@@ -21,8 +21,8 @@ body {
 body::before {
 	content: "";
 	position: absolute;
-	width: 400px;
-	height: 400px;
+	width: 25rem;
+	height: 25rem;
 	background: linear-gradient(#ffc107, #e91e63);
 	border-radius: 50%;
 	transform: translate(-250px, -120px);
@@ -32,8 +32,8 @@ body::before {
 body::after {
 	content: "";
 	position: absolute;
-	width: 350px;
-	height: 350px;
+	width: 21.875rem;
+	height: 21.875rem;
 	background: linear-gradient(#2196f3, #31ff38);
 	border-radius: 50%;
 	transform: translate(250px, 150px);
@@ -65,7 +65,7 @@ body::after {
 }
 
 .container {
-	width: 500px;
+	width: 34.375rem;
 	background: rgba(16 18 27 / 40%);
 	color: #fff;
 	border-radius: 7px;
@@ -118,18 +118,18 @@ body::after {
 	font-size: 2.125rem;
 	font-weight: 500;
 	text-align: center;
-	letter-spacing: 24px;
+	letter-spacing: 20px;
 	margin-right: -24px;
 	text-transform: uppercase;
 }
 
 .content .details {
-	margin: 25px 0 20px;
+	margin: 1.5625rem 0 1.25rem;
 }
 
 .details p {
 	font-size: 1.125rem;
-	margin-bottom: 10px;
+	margin-bottom: 0.625rem;
 }
 
 .details bp b {
@@ -142,10 +142,10 @@ body::after {
 	color: #fff;
 	border: none;
 	width: 100%;
-	height: 60px;
+	height: 3.75rem;
 	outline: none;
 	border-radius: 5px;
-	padding: 0 16px;
+	padding: 0 1rem;
 	font-size: 1.125rem;
 }
 
@@ -156,7 +156,7 @@ body::after {
 .content .buttons {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 20px;
+	margin-top: 1.25rem;
 }
 
 .buttons button {
@@ -164,7 +164,7 @@ body::after {
 	outline: none;
 	color: #fff;
 	width: calc(100% / 2 - 8px);
-	padding: 15px 0;
+	padding: 0.9rem 0;
 	font-size: 1.125rem;
 	border-radius: 5px;
 	cursor: pointer;
@@ -197,7 +197,7 @@ body::after {
 }
 
 .tips {
-	padding: 0 4rem 0.5rem 4rem;
+	padding: 0 6rem 0.5rem 6rem;
 	text-align: center;
 	font-size: 0.7rem;
 	color: #ccc;

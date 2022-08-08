@@ -12,7 +12,7 @@ let words = [
 		hint: "Símbolo matemático usado para contar",
 	},
 	{
-		word: "intercâmbio",
+		word: "barganha",
 		hint: "O ato de negociar",
 	},
 	{
